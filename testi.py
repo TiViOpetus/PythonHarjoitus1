@@ -9,3 +9,7 @@ year_of_birth = input('Minä vuonna olet syntynyt? ')
 
 # Tulostetaan tiedot ruudulle
 print(first_name, 'olet syntynyt', year_of_birth)
+
+# Luodaan lista viikonpäivistä
+viikonpaivat = ['maanantai', 'tiistai', 'keskiviikko', 'torstai', 'perjantai', 'lauantai', 'sunnuntai']
+print('viikon ensimmäinen päivä on', viikonpaivat[0])
